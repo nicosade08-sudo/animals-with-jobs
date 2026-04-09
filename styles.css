@@ -1,0 +1,100 @@
+#animalList {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(210, 212, 214);
+}
+
+p {     /* age & skills */ 
+    color: #444;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.animal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 250px;  
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.animal-info h4,
+.animal-info p,
+.skills {
+    width: 100%;
+    text-align: left;
+}
+
+.animal-info li {
+    color: rgb(11, 9, 10);
+}
+
+.animal-info ul {
+    margin: 0;
+    padding: 0;
+}
+
+.animal-info ul li {
+    margin-left: 0;
+}
+
+h4 {        /* job & employment */ 
+    color: rgb(5, 7, 7);
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    border: 6px solid white;
+    display: block;
+    width: 220px;
+}
+
+h2 {        /* name & kindOfAnimal */
+    color: #9aa0a6;  
+    letter-spacing: 1px;
+    opacity: 1;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+p, h4 {
+    line-height: 1.5;
+}
+
+.label {
+    color: #9aa0a6;
+}
+
+@media (max-width: 600px) {
+    .animal-info {
+        flex: 1 1 100%; 
+        max-width: 100%;
+    }
+
+    img {
+        width: 150px;  
+    }
+}

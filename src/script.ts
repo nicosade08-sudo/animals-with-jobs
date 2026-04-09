@@ -1,3 +1,5 @@
+// KLAR
+
 import fetchAnimals from "./modules/fetchAnimals.ts";
 import renderListOfAnimals from "./modules/renderListOfAnimals.ts";
 
